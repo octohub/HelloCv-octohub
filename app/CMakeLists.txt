@@ -4,7 +4,7 @@
 
 #Added 2 path definitions to support 20160825 additions
 set(pathToProject /Users/richard/dev/HelloCv-master)
-set(pathToOpenCv /Users/richard/dev/OpenCV-android-sdk-310)
+set(pathToOpenCv /Users/richard/dev/OpenCV-android-sdk-345)
 
 #Added by the IDE on project create
 cmake_minimum_required(VERSION 3.4.1)
