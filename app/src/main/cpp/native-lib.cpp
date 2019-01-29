@@ -7,6 +7,7 @@ extern "C" {
     Java_com_company_cpp_hellocv_MainActivity_stringFromJNI(
             JNIEnv *env,
             jobject /* this */) {
+        cv::Mat image(320, 240, CV_8UC3, cv::Scalar(0,0,0)); // Proof OpenCv is linking.
         std::string hello = "Hello from C++";
         return env->NewStringUTF(hello.c_str());
     }
